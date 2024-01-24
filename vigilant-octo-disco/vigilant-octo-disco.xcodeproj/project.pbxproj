@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2B23D92B5F319700BF8F25 /* vigilant_octo_discoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23D82B5F319700BF8F25 /* vigilant_octo_discoApp.swift */; };
+		BA2B23DB2B5F319700BF8F25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23DA2B5F319700BF8F25 /* ContentView.swift */; };
+		BA2B23DF2B5F319800BF8F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2B23DE2B5F319800BF8F25 /* Assets.xcassets */; };
+		BA2B23E22B5F319800BF8F25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2B23E12B5F319800BF8F25 /* Preview Assets.xcassets */; };
+		BA2B23E92B5F391100BF8F25 /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23E82B5F391100BF8F25 /* AppEntry.swift */; };
+		BA2B23EB2B5F397800BF8F25 /* WorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23EA2B5F397800BF8F25 /* WorkspaceView.swift */; };
+		BA2B23ED2B5F3B4F00BF8F25 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23EC2B5F3B4F00BF8F25 /* Network.swift */; };
+		BA2B23EF2B5F3BD600BF8F25 /* ClickUpInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23EE2B5F3BD600BF8F25 /* ClickUpInterface.swift */; };
+		BA2B23F32B608C5A00BF8F25 /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23F22B608C5A00BF8F25 /* SpaceView.swift */; };
+		BA2B23F52B60A25A00BF8F25 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23F42B60A25A00BF8F25 /* FolderView.swift */; };
+		BA2B23F72B60AA6200BF8F25 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23F62B60AA6200BF8F25 /* ListView.swift */; };
+		BA2B23F92B60AF0500BF8F25 /* FolderlessListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23F82B60AF0500BF8F25 /* FolderlessListView.swift */; };
+		BA2B23FB2B60B3CE00BF8F25 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B23FA2B60B3CE00BF8F25 /* TaskView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA2B23D52B5F319700BF8F25 /* vigilant-octo-disco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vigilant-octo-disco.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2B23D82B5F319700BF8F25 /* vigilant_octo_discoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vigilant_octo_discoApp.swift; sourceTree = "<group>"; };
+		BA2B23DA2B5F319700BF8F25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA2B23DE2B5F319800BF8F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2B23E12B5F319800BF8F25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA2B23E82B5F391100BF8F25 /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
+		BA2B23EA2B5F397800BF8F25 /* WorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceView.swift; sourceTree = "<group>"; };
+		BA2B23EC2B5F3B4F00BF8F25 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BA2B23EE2B5F3BD600BF8F25 /* ClickUpInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickUpInterface.swift; sourceTree = "<group>"; };
+		BA2B23F22B608C5A00BF8F25 /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
+		BA2B23F42B60A25A00BF8F25 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		BA2B23F62B60AA6200BF8F25 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		BA2B23F82B60AF0500BF8F25 /* FolderlessListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderlessListView.swift; sourceTree = "<group>"; };
+		BA2B23FA2B60B3CE00BF8F25 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2B23D22B5F319700BF8F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2B23CC2B5F319700BF8F25 = {
+			isa = PBXGroup;
+			children = (
+				BA2B23D72B5F319700BF8F25 /* vigilant-octo-disco */,
+				BA2B23D62B5F319700BF8F25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2B23D62B5F319700BF8F25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B23D52B5F319700BF8F25 /* vigilant-octo-disco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2B23D72B5F319700BF8F25 /* vigilant-octo-disco */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B23D82B5F319700BF8F25 /* vigilant_octo_discoApp.swift */,
+				BA2B23DA2B5F319700BF8F25 /* ContentView.swift */,
+				BA2B23E82B5F391100BF8F25 /* AppEntry.swift */,
+				BA2B23EA2B5F397800BF8F25 /* WorkspaceView.swift */,
+				BA2B23F22B608C5A00BF8F25 /* SpaceView.swift */,
+				BA2B23F42B60A25A00BF8F25 /* FolderView.swift */,
+				BA2B23F82B60AF0500BF8F25 /* FolderlessListView.swift */,
+				BA2B23F62B60AA6200BF8F25 /* ListView.swift */,
+				BA2B23EC2B5F3B4F00BF8F25 /* Network.swift */,
+				BA2B23EE2B5F3BD600BF8F25 /* ClickUpInterface.swift */,
+				BA2B23FA2B60B3CE00BF8F25 /* TaskView.swift */,
+				BA2B23DE2B5F319800BF8F25 /* Assets.xcassets */,
+				BA2B23E02B5F319800BF8F25 /* Preview Content */,
+			);
+			path = "vigilant-octo-disco";
+			sourceTree = "<group>";
+		};
+		BA2B23E02B5F319800BF8F25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B23E12B5F319800BF8F25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2B23D42B5F319700BF8F25 /* vigilant-octo-disco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2B23E52B5F319800BF8F25 /* Build configuration list for PBXNativeTarget "vigilant-octo-disco" */;
+			buildPhases = (
+				BA2B23D12B5F319700BF8F25 /* Sources */,
+				BA2B23D22B5F319700BF8F25 /* Frameworks */,
+				BA2B23D32B5F319700BF8F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vigilant-octo-disco";
+			productName = "vigilant-octo-disco";
+			productReference = BA2B23D52B5F319700BF8F25 /* vigilant-octo-disco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2B23CD2B5F319700BF8F25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BA2B23D42B5F319700BF8F25 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BA2B23D02B5F319700BF8F25 /* Build configuration list for PBXProject "vigilant-octo-disco" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2B23CC2B5F319700BF8F25;
+			productRefGroup = BA2B23D62B5F319700BF8F25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2B23D42B5F319700BF8F25 /* vigilant-octo-disco */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2B23D32B5F319700BF8F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B23E22B5F319800BF8F25 /* Preview Assets.xcassets in Resources */,
+				BA2B23DF2B5F319800BF8F25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2B23D12B5F319700BF8F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B23F32B608C5A00BF8F25 /* SpaceView.swift in Sources */,
+				BA2B23ED2B5F3B4F00BF8F25 /* Network.swift in Sources */,
+				BA2B23F52B60A25A00BF8F25 /* FolderView.swift in Sources */,
+				BA2B23EB2B5F397800BF8F25 /* WorkspaceView.swift in Sources */,
+				BA2B23EF2B5F3BD600BF8F25 /* ClickUpInterface.swift in Sources */,
+				BA2B23F92B60AF0500BF8F25 /* FolderlessListView.swift in Sources */,
+				BA2B23DB2B5F319700BF8F25 /* ContentView.swift in Sources */,
+				BA2B23D92B5F319700BF8F25 /* vigilant_octo_discoApp.swift in Sources */,
+				BA2B23E92B5F391100BF8F25 /* AppEntry.swift in Sources */,
+				BA2B23FB2B60B3CE00BF8F25 /* TaskView.swift in Sources */,
+				BA2B23F72B60AA6200BF8F25 /* ListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA2B23E32B5F319800BF8F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA2B23E42B5F319800BF8F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2B23E62B5F319800BF8F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vigilant-octo-disco/Preview Content\"";
+				DEVELOPMENT_TEAM = 6W56PZLJZG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pjb.den.vigilant-octo-disco";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA2B23E72B5F319800BF8F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vigilant-octo-disco/Preview Content\"";
+				DEVELOPMENT_TEAM = 6W56PZLJZG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pjb.den.vigilant-octo-disco";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2B23D02B5F319700BF8F25 /* Build configuration list for PBXProject "vigilant-octo-disco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B23E32B5F319800BF8F25 /* Debug */,
+				BA2B23E42B5F319800BF8F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2B23E52B5F319800BF8F25 /* Build configuration list for PBXNativeTarget "vigilant-octo-disco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B23E62B5F319800BF8F25 /* Debug */,
+				BA2B23E72B5F319800BF8F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2B23CD2B5F319700BF8F25 /* Project object */;
+}
